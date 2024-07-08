@@ -9,6 +9,13 @@ $ npm install @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
 $ npm install mongodb mongoose
 ```
 
+Start the MongoDB database
+
+by creating a file in the folder named .env.local inside it connect it with your credentials example:
+in my case i used the MongoDB cloud connection.
+```
+MONGODB_URI = mongodb+srv://admin:1234@cluster0.mc2lpnk.mongodb.net/TicketsDB
+```
 First, run the development server:
 
 ```bash
